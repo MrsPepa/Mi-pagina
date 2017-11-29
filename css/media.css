@@ -1,0 +1,23 @@
+@media (max-width: 575px) { /*breakpoint, desaparece menu, aparece el de hamburguesa y cambia la imagen baner a una de 920x400*/
+  li {
+    display: none;
+    }
+    #img1 {
+      background-image: url("../img/920x400.jpg");
+    }
+    .imgs1,
+    .imgs2,
+    .imgs3 {
+      margin-left: auto;
+      margin-right: auto;
+      background-size: cover;
+    }
+}
+@media (min-width: 576px) {/*breakpoint, pantallas grandes no muestran menu de hamburguesa*/
+  .nnc {
+    display: none;
+  }
+  i.fa.fa-bars {
+    display: none;
+  }
+}

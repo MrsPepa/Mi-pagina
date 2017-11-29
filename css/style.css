@@ -1,0 +1,170 @@
+* { /*normaliza cuerpo*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  list-style-type: none;
+  cursor: default;
+}
+.navegacion {
+  float: left;
+  list-style-type: none;
+  background-color: #343A40;
+  height: 55px;
+  width: 100%;
+}
+.starBoots {
+  margin-top: 0.5em;
+  float: left;
+  font-weight: bold;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: teal;
+}
+li {
+  float: right;
+  padding-right: 1%;
+  padding-left: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+.barraN {
+  line-height: 37px;
+  font-weight: bold;
+}
+#banner {
+  background-image: url("../img/videojuegos.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: 100% 100%;
+}
+img {
+  border: #fff solid 20px;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  width: 100%;
+}
+p.nameBanner {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #FEBB00;
+  padding-top: 110px;
+}
+.what, .contUs {
+  padding-left: 0;
+}
+.whatTxt,
+h2, p {
+  color: #000;
+}
+h2 {
+  font-size: 30px;
+  padding-bottom: 0;
+  color: #646464;
+  ;
+}
+.btnCall {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: teal;
+  border-radius: 5px;
+  height: 47px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: 400;
+}
+.btnCall:hover {
+  background-color: #007BFF;
+}
+.lorem {
+  padding: 10px;
+  padding-top: 0;
+}
+h2 {
+  padding: 10px;
+  padding-bottom: 0;
+}
+.block {
+  border: 1px #C9C9C9 solid;
+}
+.imgs1 {
+  background-image: url("../img/cyndaquil.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.imgs2 {
+  background-image: url("../img/jigglypuff.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.imgs3 {
+  background-image: url("../img/rowlet.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.btn2 {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: teal;
+  border-radius: 5px;
+  height: 47px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.btn2:hover {
+  background-color: #007BFF;
+}
+.borderButton {
+  background-color: #EDEDED;
+  border: 0;
+  border-top: 1px #C9C9C9 solid;
+  height: 64px;
+  width: 100%;
+}
+.row {
+  padding-bottom: 15px;
+}
+
+.fa-bars {
+  float: right;
+  cursor: pointer;
+}
+#mail {
+  color: teal;
+}
+.e {
+  display: inline-block;
+}
+.fa-bars:before {
+  line-height: 37px;
+}
+.footer {
+  height: 120px;
+  width: 100%;
+  background-color: #343A40;
+}
+.textFooter {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+  color: #fff;
+}
